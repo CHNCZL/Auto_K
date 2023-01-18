@@ -1,6 +1,7 @@
 import os
 import json
 body_part = []
+MiDict = {}
 # 缩放倍数
 scale = 1
 
@@ -27,6 +28,7 @@ def read_bvh():
                         print(body_part[i], keyframe[6*i: 6*i+6])
 
 if __name__ == "__main__":
+    read_bvh()
     read_miframe()    
                     
    
